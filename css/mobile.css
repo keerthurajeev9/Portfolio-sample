@@ -1,0 +1,139 @@
+@media screen and (max-width:768px){
+    .icons{
+        flex-direction: column;
+    }
+    .blue-sec{
+    display: none;
+    }
+    .name-flex{
+        margin-top: 4rem;
+        margin-left: 1rem;
+    }
+    .folio{
+        margin-top: 0;
+        text-align: center;
+    }
+    .icons{
+        flex-direction: row;
+    }
+    .icons a
+    {
+        display: block;
+        margin: 0 auto;
+        
+    }
+    .icons a i{
+        text-align: center;
+    }
+    .grid-1{
+        display: none;
+    }
+    .name-details{
+        font-size: 40px;
+        width: 70%;
+    }
+    .scroll{
+        margin-top: 3rem;
+        
+    }
+    .scroll i{
+        font-size: 2.5rem;
+    }
+    .icons h1,.icons a,.icons h3{
+        display: none;
+    }
+    /* section 2 */
+    .ml{
+        margin-left: 1rem;
+        margin-top: 3rem;
+    }
+    .second-heading{
+        font-size: 2rem;
+    }
+    .hover-talent{
+        padding: 0rem;
+        margin-right: 0;
+    }
+    .main-heading{
+        font-size: 4rem;
+    }
+    .div-2 {
+        background: url(/images/7.png) no-repeat center center/cover;
+    }
+    .img8{
+        display: none;
+    }
+    button{
+        width: 40%;
+    }
+    .talents{
+        flex-direction: column;
+        margin-left: 0rem;
+        margin-top: 10rem;
+    }
+    .talent{
+        margin-bottom: 4rem;
+    }
+    .talent p{
+        width: 80vw;
+    }
+    .btn2{
+        margin-bottom: 1.7rem;
+    }
+    /* sec 3 */
+    .each-work{
+        grid-template-columns: 1fr;
+    justify-items: center;
+    }
+    .div-work{
+        width: 90vw;
+        margin-bottom: 7rem;
+    }
+    .div-2{
+        width: 100%;
+    }
+    .works img {
+        width: 200px;
+        position: relative;
+        top: 0px;
+        right:10rem;
+    }
+    /* section 4 */
+    .contact-section{
+         display: block;
+    }
+    .img-wrapper {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+    .contact-content img {
+        width: 220px;
+    }
+    .form-group input, select{
+        margin-left: 0;
+    }
+    .buttons-main{
+        margin-left: 0rem;
+    }
+    .main-area{
+        margin-left: 0.4rem;
+    }
+    .footer p{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px){
+    .blue-sec{
+        display: none;
+    }
+    .scroll{
+        margin-top: 2rem;
+    }   
+    .div-2{
+        margin-top: 6rem;
+    }
+    .talent{
+        flex-basis: 100%;
+    }
+}
