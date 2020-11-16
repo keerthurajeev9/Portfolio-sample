@@ -107,7 +107,7 @@ h3:hover {
     height: 10px;
     left: -5px;
     top: -5px;
-    border-radius: 10%;
+    border-radius: 50%;
     background: blue;
     pointer-events: none;
     -webkit-transition: -webkit-transform .1s;
